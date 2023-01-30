@@ -1,0 +1,20 @@
+.fou{
+    display: flex;
+}
+
+.fooslou{
+    flex: 50%;
+    margin-bottom:0px;
+    width:300px;
+    height:400px;
+}
+.contacts{
+    flex: 50%;
+}
+.lastitle{
+    flex: 50%;
+    font-family: cursive;
+    font-size:80px;
+    z-index: 1;
+    margin-top: 0px;
+}

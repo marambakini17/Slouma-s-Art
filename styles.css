@@ -1,39 +1,39 @@
-body{
-    background-color:#f0d355;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
 .slou{
-    background-color: aliceblue;
-
+    background-color: #f0d355;
     width:100%;
     height:70px;
-    display: flex;
-}
-.contact{
-flex: 20%;
-position: relative;
-margin-left: 400px;
-margin-right:12px;
-margin-top: 10px;
-}
-.catalogue{
-    flex:20%;
-    margin-top: 10px;
+    display: flex;  
 }
 
 .title1{
-    font-family: "Lucida Console", "Courier New", monospace;
+    font-family: cursive;
     font-size:80px;
     margin-left: 50px;
     z-index:1;
 }
+
 .desc{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: cursive;
     font-size: 40px;
     color: beige;
+    margin-top: 100px;
     margin-left: 60px;
     z-index: 1;
 }
+.def{
+    font-family: cursive;
+    font-size: 20px;
+    color:black;
+    margin-top: 70px;
+    margin-left: 60px;
+    z-index: 1;
+}
+
 .img1{
     height:600px;
     display: block;
@@ -45,6 +45,9 @@ margin-top: 10px;
 
 .f1{
     display: flex;
+    width:100%;
+    height:600px;
+    background-color:#f0d355;
 }
 .image1{
    flex:50%;
@@ -52,9 +55,3 @@ margin-top: 10px;
 .description1{
     flex: 50%;
 }
-
-
-
-
-
-
